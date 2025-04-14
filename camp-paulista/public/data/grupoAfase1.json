@@ -1,0 +1,59 @@
+[
+    {
+      "classificacao": 1,
+      "time": "Corinthians",
+      "P": 27,
+      "J": 12,
+      "V": 8,
+      "E": 3,
+      "D": 1,
+      "GP": 24,
+      "GC": 10,
+      "SG": 14,
+      "porcentagem": "75%",
+      "ultimosJogos": ["V", "V", "E", "V", "V"]
+    },
+    {
+      "classificacao": 2,
+      "time": "Mirassol",
+      "P": 16,
+      "J": 12,
+      "V": 4,
+      "E": 4,
+      "D": 4,
+      "GP": 18,
+      "GC": 16,
+      "SG": 2,
+      "porcentagem": "44%",
+      "ultimosJogos": ["E", "D", "V", "E", "D"]
+    },
+    {
+      "classificacao": 3,
+      "time": "Botafogo-SP",
+      "P": 11,
+      "J": 12,
+      "V": 2,
+      "E": 5,
+      "D": 5,
+      "GP": 12,
+      "GC": 20,
+      "SG": -8,
+      "porcentagem": "31%",
+      "ultimosJogos": ["D", "E", "D", "V", "E"]
+    },
+    {
+      "classificacao": 4,
+      "time": "Inter de Limeira",
+      "P": 7,
+      "J": 12,
+      "V": 1,
+      "E": 4,
+      "D": 7,
+      "GP": 9,
+      "GC": 25,
+      "SG": -16,
+      "porcentagem": "19%",
+      "ultimosJogos": ["D", "D", "E", "D", "D"]
+    }
+  ]
+  
