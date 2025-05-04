@@ -1,0 +1,59 @@
+[
+    {
+      "classificacao": 1,
+      "time": "São Paulo",
+      "P": 19,
+      "J": 12,
+      "V": 5,
+      "E": 4,
+      "D": 3,
+      "GP": 18,
+      "GC": 13,
+      "SG": 5,
+      "porcentagem": "53%",
+      "ultimosJogos": ["V", "E", "D", "V", "E"]
+    },
+    {
+      "classificacao": 2,
+      "time": "Novorizontino",
+      "P": 18,
+      "J": 12,
+      "V": 4,
+      "E": 6,
+      "D": 2,
+      "GP": 13,
+      "GC": 11,
+      "SG": 2,
+      "porcentagem": "50%",
+      "ultimosJogos": ["E", "V", "E", "D", "V"]
+    },
+    {
+      "classificacao": 3,
+      "time": "Noroeste",
+      "P": 8,
+      "J": 12,
+      "V": 1,
+      "E": 5,
+      "D": 6,
+      "GP": 12,
+      "GC": 19,
+      "SG": -7,
+      "porcentagem": "22%",
+      "ultimosJogos": ["D", "E", "D", "E", "D"]
+    },
+    {
+      "classificacao": 4,
+      "time": "Água Santa",
+      "P": 7,
+      "J": 12,
+      "V": 1,
+      "E": 4,
+      "D": 7,
+      "GP": 10,
+      "GC": 23,
+      "SG": -13,
+      "porcentagem": "19%",
+      "ultimosJogos": ["D", "E", "D", "D", "E"]
+    }
+  ]
+  
