@@ -1,3 +1,5 @@
+import styles from "./style.module.css"
+
 interface Time {
   classificacao: number;
   time: string;
@@ -20,11 +22,13 @@ interface TableProps {
 export function Table({ grupo }: TableProps) {
   return (
     <div>
-      <table>
+      <table className={styles.table}>
         <thead>
           <tr>
             <th>Classificação</th>
-            <th>Time</th>
+            <th>
+              Time
+            </th>
             <th>P</th>
             <th>J</th>
             <th>V</th>
