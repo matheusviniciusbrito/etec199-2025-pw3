@@ -1,5 +1,9 @@
 import faseDeGrupos from '../../public/data/faseDeGrupos.json';
+import quartasFinal from '../../public/data/quartasFinal2025.json';
+import semifinais from '../../public/data/semifinais2025.json';
+import final from '../../public/data/final.json';
 import { Table } from '../components/TablePrimeira';
+import { CardJogos } from '../components/CardJogos';
 
 export default function Home() {
   return (
@@ -12,8 +16,15 @@ export default function Home() {
       <Table grupo={faseDeGrupos.grupoC} />
       <h1>Grupo D</h1>
       <Table grupo={faseDeGrupos.grupoD} />
-    </div>
-    
-  )
 
+      <h1>Quartas de Final</h1>
+      <CardJogos jogos={quartasFinal} />
+
+      <h1>Semifinais</h1>
+      <CardJogos jogos={semifinais} />
+
+      <h1>Final</h1>
+      <CardJogos jogos={final} />
+    </div>
+  );
 }

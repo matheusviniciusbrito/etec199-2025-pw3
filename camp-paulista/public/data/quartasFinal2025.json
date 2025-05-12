@@ -1,0 +1,42 @@
+[
+  {
+    "fase": "Quartas de final",
+    "data": "2025-03-01",
+    "hora": "20:30",
+    "mandante": "São Bernardo",
+    "visitante": "Palmeiras",
+    "placar": "0 x 3",
+    "estadio": "Primeiro de Maio",
+    "classificado": "Palmeiras"
+  },
+  {
+    "fase": "Quartas de final",
+    "data": "2025-03-02",
+    "hora": "18:30",
+    "mandante": "Corinthians",
+    "visitante": "Mirassol",
+    "placar": "2 x 0",
+    "estadio": "Neo Química Arena",
+    "classificado": "Corinthians"
+  },
+  {
+    "fase": "Quartas de final",
+    "data": "2025-03-02",
+    "hora": "20:45",
+    "mandante": "Santos",
+    "visitante": "Red Bull Bragantino",
+    "placar": "2 x 0",
+    "estadio": "Vila Belmiro",
+    "classificado": "Santos"
+  },
+  {
+    "fase": "Quartas de final",
+    "data": "2025-03-03",
+    "hora": "20:00",
+    "mandante": "São Paulo",
+    "visitante": "Novorizontino",
+    "placar": "1 x 0",
+    "estadio": "Morumbis",
+    "classificado": "São Paulo"
+  }
+]

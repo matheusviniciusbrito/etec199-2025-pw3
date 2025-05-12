@@ -1,0 +1,22 @@
+[
+  {
+    "fase": "Final - Jogo de ida",
+    "data": "2025-03-16",
+    "hora": "18:30",
+    "mandante": "Palmeiras",
+    "visitante": "Corinthians",
+    "placar": "0 x 1",
+    "estadio": "Allianz Parque",
+    "classificado": null
+  },
+  {
+    "fase": "Final - Jogo de volta",
+    "data": "2025-03-27",
+    "hora": "21:35",
+    "mandante": "Corinthians",
+    "visitante": "Palmeiras",
+    "placar": "0 x 0",
+    "estadio": "Neo Química Arena",
+    "classificado": "Corinthians"
+  }
+]
