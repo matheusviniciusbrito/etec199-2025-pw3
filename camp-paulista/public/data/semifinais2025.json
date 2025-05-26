@@ -7,7 +7,9 @@
     "visitante": "Santos",
     "placar": "2 x 1",
     "estadio": "Neo Química Arena",
-    "classificado": "Corinthians"
+    "classificado": "Corinthians",
+    "escudoMandante": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Corinthians_logo.svg",
+    "escudoVisitante": "https://upload.wikimedia.org/wikipedia/commons/3/35/Santos_logo.svg"
   },
   {
     "fase": "Semifinal",
@@ -17,6 +19,8 @@
     "visitante": "São Paulo",
     "placar": "1 x 0",
     "estadio": "Allianz Parque",
-    "classificado": "Palmeiras"
+    "classificado": "Palmeiras",
+    "escudoMandante": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Palmeiras_logo.svg",
+    "escudoVisitante": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sao_Paulo_FC_logo.svg"
   }
 ]

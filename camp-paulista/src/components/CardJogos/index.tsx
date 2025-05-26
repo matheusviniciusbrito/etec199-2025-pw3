@@ -5,7 +5,9 @@ interface Jogo {
   data: string;
   hora: string;
   mandante: string;
+  escudoMandante?: string; // URL do escudo
   visitante: string;
+  escudoVisitante?: string; // URL do escudo
   placar: string;
   estadio: string;
   classificado: string | null;
@@ -27,15 +29,19 @@ export function CardJogos({ jogos }: CardJogosProps) {
             </span>
           </div>
           <div className={styles.teams}>
-            <div className={styles.team}>
+            <span>{jogo.mandante}</span>
+            {jogo.escudoMandante ? (
+              <img src={jogo.escudoMandante} alt={jogo.mandante} className={styles.escudo} />
+            ) : (
               <div className={styles.icon}></div>
-              <span>{jogo.mandante}</span>
-            </div>
+            )}
             <span className={styles.placar}>{jogo.placar}</span>
-            <div className={styles.team}>
+            {jogo.escudoVisitante ? (
+              <img src={jogo.escudoVisitante} alt={jogo.visitante} className={styles.escudo} />
+            ) : (
               <div className={styles.icon}></div>
-              <span>{jogo.visitante}</span>
-            </div>
+            )}
+            <span>{jogo.visitante}</span>
           </div>
           <div className={styles.footer}>
             <span>{jogo.estadio}</span>

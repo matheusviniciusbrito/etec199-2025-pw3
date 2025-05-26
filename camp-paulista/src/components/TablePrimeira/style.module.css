@@ -1,40 +1,44 @@
 .table {
-    width: 50%;
+    width: 100%;
+    max-width: 1000px;;
+    margin: 20px auto;
     border-collapse: collapse;
-    margin: 20px 0;
     font-size: 16px;
-    text-align: left;
+    color: #000000;
+    overflow-x: auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0.1, 0.1, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
-.table thead tr {
-    background-color: #f4f4f4;
+.table thead {
+    background-color: #FFFFFF;
+}
+
+.table thead th {
+    color: blueviolet;
+    padding: 28px 26px;
+    text-align: left;
     border-bottom: 2px solid #ddd;
 }
 
-.table thead tr th {
-    color: blueviolet;
-    padding: 10px;
-    border: 1px solid #ddd;
-}
-
-.table tbody tr {
+.table tbody td {
+    padding: 12px 10px;
     border-bottom: 1px solid #ddd;
+    text-align: left;
 }
 
 .table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #fafafa;
 }
 
-.table tbody tr:hover {
-    background-color: #f1f1f1;
-}
 
-.table tbody tr td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: center;
-}
-
-.table tbody tr td:first-child {
+.table tbody td:first-child {
     font-weight: bold;
+    color: blueviolet;
+}
+.nomeTime {
+  background-color: #f2f2f2; /* Cor mais escura para destacar */
+  font-weight: bold;
 }

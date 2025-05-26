@@ -42,23 +42,24 @@ export function Table({ grupo }: TableProps) {
           </tr>
         </thead>
         <tbody>
-          {grupo.map((time, index) => (
-            <tr key={index}>
-              <td>{time.classificacao}</td>
-              <td>{time.time}</td>
-              <td>{time.P}</td>
-              <td>{time.J}</td>
-              <td>{time.V}</td>
-              <td>{time.E}</td>
-              <td>{time.D}</td>
-              <td>{time.GP}</td>
-              <td>{time.GC}</td>
-              <td>{time.SG}</td>
-              <td>{time.porcentagem}</td>
-              <td>{time.ultimosJogos.join(", ")}</td>
-            </tr>
-          ))}
-        </tbody>
+        {grupo.map((time, index) => (
+          <tr key={index}>
+            <td>{time.classificacao}</td>
+            <td className={styles.nomeTime}>{time.time}</td> {/* <== adicionei a classe */}
+            <td>{time.P}</td>
+            <td className={styles.nomeTime}>{time.J}</td>
+            <td>{time.V}</td>
+            <td className={styles.nomeTime}>{time.E}</td>
+            <td>{time.D}</td>
+            <td className={styles.nomeTime}>{time.GP}</td>
+            <td>{time.GC}</td>
+            <td className={styles.nomeTime}>{time.SG}</td>
+            <td>{time.porcentagem}</td>
+            <td className={styles.nomeTime}>{time.ultimosJogos.join(", ")}</td>
+          </tr>
+        ))}
+      </tbody>
+
       </table>
     </div>
   );

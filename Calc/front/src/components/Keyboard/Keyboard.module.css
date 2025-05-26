@@ -1,0 +1,59 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    gap: 4%;
+}
+
+.container button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    aspect-ratio: 1.3/1;
+    background-color: #ffffff; 
+    color: #000000; 
+    font-family: "Poppins", sans-serif; 
+    font-size: 200%;
+    font-weight: bold;
+    transition: 0.2s;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.container button:hover {
+    background-color: #ddd; 
+    color: #000000;
+}
+
+.equals {
+    background-color: #ff6600; 
+    border-radius: 20px; 
+}
+
+.container button.clear {
+    background-color: #ff6600;
+}
+
+.container button.clear:hover {
+    background-color: #e65c00;
+}
+
+.f1 span, .f2 span {
+    font-family: "Poppins", sans-serif;
+}

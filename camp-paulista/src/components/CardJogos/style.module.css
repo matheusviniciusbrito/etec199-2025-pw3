@@ -1,74 +1,99 @@
 .cardsContainer {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  margin: 20px auto; /* Centraliza os cards horizontalmente */
-  max-width: 600px; /* Define uma largura máxima para o container */
+  gap: 24px;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1000px;
 }
 
 .card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 15px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0.1, 0.1, 0.1);
+  width: 100%;
+  max-width: 1000px;
+  padding: 32px 36px; /* margem interna maior, estilo Globo Esporte */
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  width: 100%; /* Garante que o card ocupe toda a largura do container */
-  max-width: 500px; /* Define uma largura máxima para os cards */
-  margin: 0 auto; /* Centraliza os cards dentro do container */
+  justify-content: space-between;
+  transition: background-color 0.5s, color 0.5s;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
-  color: #666;
+  align-items: center;
+  margin-bottom: 12px;
 }
 
 .fase {
-  font-weight: bold;
   color: blueviolet;
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 .dataHora {
-  font-size: 12px;
+  color: #888;
+  font-size: 0.95em;
 }
 
 .teams {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 18px 0;
 }
 
 .team {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
 .icon {
-  width: 30px;
-  height: 30px;
-  background-color: #ddd;
+  width: 28px;
+  height: 28px;
+  background: #ebebeb;
   border-radius: 50%;
+  margin-right: 4px;
 }
 
 .placar {
-  font-size: 18px;
+  font-size: 1.5em;
   font-weight: bold;
-  color: #333;
+  color: blueviolet;
+  min-width: 48px;
+  text-align: center;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
-  color: #666;
+  align-items: center;
+  font-size: 0.98em;
+  margin-top: 10px;
 }
 
 .classificado {
+  color: blueviolet;
   font-weight: bold;
-  color: green;
+  margin-left: 10px;
+}
+
+.escudo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin: 0 8px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #eee;
 }

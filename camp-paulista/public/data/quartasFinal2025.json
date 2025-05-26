@@ -7,7 +7,9 @@
     "visitante": "Palmeiras",
     "placar": "0 x 3",
     "estadio": "Primeiro de Maio",
-    "classificado": "Palmeiras"
+    "classificado": "Palmeiras",
+    "escudoMandante": "https://logodownload.org/wp-content/uploads/2017/04/sao-bernardo-fc-logo-0.png",
+    "escudoVisitante": "https://logodetimes.com/wp-content/uploads/palmeiras-logo-0.png"
   },
   {
     "fase": "Quartas de final",
@@ -17,7 +19,9 @@
     "visitante": "Mirassol",
     "placar": "2 x 0",
     "estadio": "Neo Química Arena",
-    "classificado": "Corinthians"
+    "classificado": "Corinthians",
+    "escudoMandante": "https://logodetimes.com/wp-content/uploads/corinthians-logo-0.png",
+    "escudoVisitante": "https://logodetimes.com/wp-content/uploads/mirassol-futebol-clube-logo-0.png"
   },
   {
     "fase": "Quartas de final",
@@ -27,7 +31,9 @@
     "visitante": "Red Bull Bragantino",
     "placar": "2 x 0",
     "estadio": "Vila Belmiro",
-    "classificado": "Santos"
+    "classificado": "Santos",
+    "escudoMandante": "https://logodetimes.com/wp-content/uploads/santos-logo-0.png",
+    "escudoVisitante": "https://logodetimes.com/wp-content/uploads/red-bull-bragantino-logo-0.png"
   },
   {
     "fase": "Quartas de final",
@@ -37,6 +43,8 @@
     "visitante": "Novorizontino",
     "placar": "1 x 0",
     "estadio": "Morumbis",
-    "classificado": "São Paulo"
+    "classificado": "São Paulo",
+    "escudoMandante": "https://logodetimes.com/wp-content/uploads/sao-paulo-logo-0.png",
+    "escudoVisitante": "https://logodetimes.com/wp-content/uploads/gremio-novorizontino-logo-0.png"
   }
 ]
