@@ -188,3 +188,5 @@ INSERT INTO tbl_itempedido (id, id_pedido, id_produto, qnt) values
 (28, 18, 8, 2),
 (29, 19, 9, 5),
 (30, 20, 10, 1);
+
+show tables
